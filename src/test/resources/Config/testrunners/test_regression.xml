@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name=" Regression testing Suite" verbose="2" parallel="tests" thread-count="3">
+	
+	
+		<listeners>
+		<listener
+			class-name="com.qa.opencart.listeners.ExtentReportListener" />	
+		<listener
+			class-name="com.qa.opencart.listeners.TestAllureListener" />
+	
+	</listeners>
+
+	<test name="Account Page Test ">
+		<parameter name="browser" value="chrome"/>
+			
+		<parameter name = "url" value = "https://naveenautomationlabs.com/opencart/index.php?route=account/login"/>
+		
+		<classes>
+			<class name="com.qa.opencart.tests.AccountPageTest" />
+		</classes>
+	</test>
+
+ <test name="I am Happy with testNG">
+		<parameter name="browser" value="edge"/>
+			
+		<parameter name = "url" value = "https://naveenautomationlabs.com/opencart/index.php?route=account/login"/>
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+
+	<test name="OrangeHRM Test">
+		<parameter name="browser" value="firefox"/>
+			
+		<parameter name = "url" value = "https://www.orangehrm.com/en/contact-sales"/>
+		<classes>
+			<class name="com.qa.opencart.tests.ProductInfoPageTest" />
+		</classes>
+	</test> 
+
+</suite>
