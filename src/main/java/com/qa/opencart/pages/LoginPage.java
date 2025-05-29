@@ -40,7 +40,7 @@ public class LoginPage {
 
 	public String LoginPageURL() {
 		String url = eleUtil.waitForURLContains(AppConstants.LOGIN_PAGE_FRACTION_URL, TimeUtil.DEFAULT_TIME);
-		System.out.println("login page Title" + url);
+		System.out.println("login page Title 1718Veda" + url);
 		return url;
 	}
 
