@@ -9,10 +9,11 @@ public class OpenCart {
 		System.out.println("this is login method");
 	}
 	
-	public void doLogin() {
+	public void dologin() {
 		
 		System.out.println("dologin method");
 	}
+	
 	public void dosearch() {
 		
 		System.out.println("doSeach method");
