@@ -12,5 +12,10 @@ public class OpenCart {
 	public void doLogin() {
 		
 		System.out.println("dologin method");
-	}	
+	}
+	public void dosearch() {
+		
+		System.out.println("doSeach method");
+	
+	}
 }
