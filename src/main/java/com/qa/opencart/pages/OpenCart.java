@@ -8,5 +8,9 @@ public class OpenCart {
 		
 		System.out.println("this is login method");
 	}
+	
+	public void doLogin() {
 		
+		System.out.println("dologin method");
+	}	
 }
