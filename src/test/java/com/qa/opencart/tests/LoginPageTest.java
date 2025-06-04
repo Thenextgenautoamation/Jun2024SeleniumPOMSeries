@@ -13,7 +13,7 @@ public class LoginPageTest extends BaseTest {
 	public void loginPageTitleTest() {
 		String Actualtitle = loginpage.LoginPageTitle();
 		Assert.assertEquals(Actualtitle, AppConstants.LOGIN_PAGE_TITLE, AppError.BROWSER_NOT_FOUND);
-//		Assert.assertNotEquals(Actualtitle, "Account Login", "=== page title not found ====");
+
 	}
 
 	@Test(priority = 2)
