@@ -1,3 +1,4 @@
+
 package com.qa.opencart.pages;
 
 public class TestDemo {
@@ -12,10 +13,11 @@ int b = 100;
 		
 		System.out.println("dologin method");
 	}
-	
+
 	public void dosearch() {
 		
 		System.out.println("doSeach method");
 	
 	}
 }
+
