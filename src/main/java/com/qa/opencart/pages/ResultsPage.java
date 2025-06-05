@@ -4,4 +4,7 @@ public class ResultsPage {
 
 	
 	String name = "Apple";
+
+	int an = "Admin"
+	
 }
